@@ -8,7 +8,7 @@ void main() {
   float glow = 1.0 - smoothstep(0.0, 0.5, dist);
 
   // colori: inattivo (blu scuro) → attivo (ciano acceso) → superattivo (bianco)
-  vec3 cold = vec3(0.0, 0.1, 0.1);
+  vec3 cold = vec3(0.5, 0.5, 0.5);
   vec3 warm = vec3(0.0, 1.0, 1.0);
   vec3 hot  = vec3(1.5, 1.5, 1.5);
 
