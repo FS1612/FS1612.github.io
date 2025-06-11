@@ -1,7 +1,8 @@
 import { createProgramFromSources } from './utils/webgl-utils.js';
 import { Camera } from './camera.js';
-import { vsSource } from './shaders/vertex.glsl.js';
-import { fsSource } from './shaders/fragment.glsl.js';
+import { fsSource } from './shaders/fragment.glsl.v3.js';
+import { vsSource } from './shaders/vertex.glsl.v3.js';
+
 import { mat4 } from 'https://cdn.skypack.dev/gl-matrix';
 import { loadPointsFromJSON } from './loadPointsFromJSON.js';
 
